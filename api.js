@@ -12,5 +12,11 @@ function fetchResult() {
     .then(result => {
         //Should change 'Studio Ghibli' to 'My Neighbor Totoro' when 'Movie' button is clicked 
       ghibliDirectory.innerHTML = result.title;
+      movieInfo.innerText = result.director;
+      releaseYear.innerText=result.release_date;
+     
     });
 }
+/*repeat this function but have it append to the 'what is it about?' which will cause it to change to the movie
+description when then 'desc' button is clicked. */
+

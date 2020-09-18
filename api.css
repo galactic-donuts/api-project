@@ -5,41 +5,77 @@ body {
 
 p {
 color: rgb(248, 245, 245);
-font-family: 'Rum Raisin', sans-serif;
+font-family: 'Acme', sans-serif;
 font-size: 45px;
-font-weight: bold;
+font-weight: lighter;
 display:flex;
 margin:0 auto;
 justify-content: center;
-text-transform: uppercase;
+text-transform: capitalize;
 
 
 }
 #press {
     width: 200px;
-    height:40px;
+    height:35px;
     display:block;
     margin:0 auto;
     border-radius: 10px;
     color:rgb(233, 241, 243);
     background-color: rgb(57, 84, 102);
-    font-family: 'Rum Raisin', sans-serif;
+    font-family: 'Acme', sans-serif;
     font-size: 25px;
+    font-weight: lighter;
     margin-top: 20px;
     border: solid 1px rgb(238, 242, 245);
-    text-transform: uppercase;
+    text-transform: capitalize;
    
     
 }
 
 #ghibli {
-    width: 400px;
+    width: 300px;
     height: 300px;
     display: block;
     margin: 0 auto;
-    border-radius:600px;
-    border: solid 1px rgb(252, 246, 246);
-    padding:5px;
+    border-radius:300px;
+    border-style:  double;
+    border-color:white;
+    border-width: 10px;
     margin-top: 50px;
+    padding:10px;
 }
 
+
+
+
+
+#movieInfo {
+    width: 200px;
+    height:30px;
+    background-color: rgb(57, 84, 102);
+    border-radius:10px;
+    border: solid 1px white;
+    color:white;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Acme', sans-serif;
+    text-transform: capitalize;
+    font-weight: lighter;
+    
+    
+}
+
+#releaseYear {
+    width:200px;
+    height: 30px;
+    background-color: rgb(57, 84, 102);
+    border-radius:10px;
+    border: solid 1px white;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    text-transform:capitalize;
+    font-weight: lighter;
+}
